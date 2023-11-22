@@ -17,8 +17,23 @@ public class Palindrome {
         // inisialisasi indeks akhir
         int end = length - 1;
 
+        // melakukan pengecekan palindrome
+        while (start < end){
 
+            // jika karakter/huruf posisi start tidak sama dengan karakter posisi end
+            if (cleanWord.charAt(start) != cleanWord.charAt(end)){
+                return false; // bukan palindrome
+            }
 
+            // indeks start =+ 1
+            start++;
+
+            // indeks end +- 1
+            end--;
+
+        }
+
+        // itu adalah palindrome
         return true;
     }
 
