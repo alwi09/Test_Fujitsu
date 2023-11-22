@@ -28,7 +28,7 @@ public class Palindrome {
             // indeks start =+ 1
             start++;
 
-            // indeks end +- 1
+            // indeks end =- 1
             end--;
 
         }
