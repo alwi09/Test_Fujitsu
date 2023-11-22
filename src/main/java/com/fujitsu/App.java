@@ -12,6 +12,7 @@ public class App
 
         // deklarasi tryAgain agar bisa di akses pada kondisi loop
         String tryAgain;
+
         do {
             // untuk memasukkan inputan
             System.out.print("Masukkan Kata : ");
